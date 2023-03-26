@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'linux'}
+  agent { label 'docker-agent-alpine'}
   options {
     skipDefaultCheckout(true)
   }
